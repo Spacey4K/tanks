@@ -1,0 +1,45 @@
+.links {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
+
+.links>* {
+	border: 2px solid DodgerBlue;
+	border-radius: 1rem;
+	height: 4rem;
+}
+
+.links>a {
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: .3s;
+}
+
+.links>a:hover {
+	background-color: DodgerBlue;
+}
+
+.links>div {
+	overflow: clip;
+	display: flex;
+	padding-left: 1rem;
+}
+
+#username {
+	width: 100%;
+	border: none;
+	outline: none;
+
+	background-color: transparent;
+	color: #fff;
+	font-size: 1em;
+}
+
+#color {
+	cursor: pointer;
+	border: none;
+	height: 100%;
+}
