@@ -22,7 +22,8 @@ for (const action in controls) {
 const mousePos = { x: 0, y: 0 };
 
 function init() {
-	ws = new WebSocket('ws://localhost:8080');
+	// ws = new WebSocket('ws://localhost:8080/ws');
+	ws = new WebSocket('wss://tanks.spey.si/ws');
 
 	ws.onopen = () => {
 		console.log(`Connected to WS server`);

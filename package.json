@@ -1,18 +1,16 @@
 {
-	"name": "server",
+	"name": "tanks",
 	"version": "1.0.0",
-	"description": "",
+	"description": "diep.io recreation",
 	"main": "server.js",
 	"scripts": {
-		"dev": "nodemon"
+		"start": "node ."
 	},
 	"keywords": [],
 	"author": "",
 	"license": "ISC",
 	"dependencies": {
-		"ws": "^8.12.0"
-	},
-	"devDependencies": {
-		"nodemon": "^2.0.20"
+		"express": "^4.18.3",
+		"ws": "^8.16.0"
 	}
 }
